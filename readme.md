@@ -111,7 +111,3 @@ linkage: str = "complete"
 - 处理簇的分裂与合并事件：监测一个历史 group 被多个新簇匹配或多个历史 group 匯合为一个新簇，记录 split/merge 事件并用更复杂的策略处理 id 继承。  
 - 使用 Kalman Filter / 轨迹匹配提升跨帧连接鲁棒性，尤其在遮挡或检测丢失场景中。
 - 使用原生时空聚类，将前后两帧中的行人一同聚类，自动给出聚类在时间方向的延伸方式。
-
----
-
-更多代码请见 https://github.com/CoderXL1/ML-Task02-Pedestrian-Clustering
